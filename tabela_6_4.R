@@ -1,4 +1,5 @@
 require(tidyverse)
+require(reshape2)
 
 data = cbind.data.frame(
   Estrategia = c('111', '112', '121', '122', '211', '212', '221', '222'),
